@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 
 def home(req: http.HttpRequest) -> http.HttpResponse:
-    return render(req, "thing.html")
+    return render(req, "home.html")
